@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "classifier", "classifier.csproj", "{4995A322-7B7A-49EB-9202-64919D117988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4995A322-7B7A-49EB-9202-64919D117988}.Debug|x86.ActiveCfg = Debug|x86
+		{4995A322-7B7A-49EB-9202-64919D117988}.Debug|x86.Build.0 = Debug|x86
+		{4995A322-7B7A-49EB-9202-64919D117988}.Release|x86.ActiveCfg = Release|x86
+		{4995A322-7B7A-49EB-9202-64919D117988}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = classifier.csproj
+	EndGlobalSection
+EndGlobal
