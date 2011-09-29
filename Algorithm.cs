@@ -6,6 +6,11 @@ using System.Text.RegularExpressions;
 
 namespace classifier
 {
+	/// <summary>
+	/// Created a Hash Set class that:
+	/// 1. Automaticaly created a new entry with a new occurence of a key
+	/// 2. Increments an existing entry if the key already exists
+	/// </summary>
     internal class Set<T> : ICollection<T>
     {
         private Dictionary<T, int> d;
@@ -44,7 +49,10 @@ namespace classifier
             return result.ToArray();
         }
     }
-
+	
+	/// <summary>
+	/// Main class for the Naive Bayes classifier. 
+	/// </summary>
     internal class Algorithm
     {
         private const double BASE = 2.0d;
